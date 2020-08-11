@@ -9,6 +9,7 @@ CREATE TABLE "departments" (
 
 SELECT * FROM departments
 
+-- Department employee table
 CREATE TABLE "dept_emp" (
     "emp_no" INTEGER   NOT NULL,
     "dept_no" VARCHAR   NOT NULL,
