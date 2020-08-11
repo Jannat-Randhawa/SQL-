@@ -19,6 +19,7 @@ CREATE TABLE "dept_emp" (
 
 SELECT * FROM dept_emp
 
+-- Department Manager 
 CREATE TABLE "dept_manager" (
     "dept_no" VARCHAR   NOT NULL,
     "emp_no" INTEGER   NOT NULL,
