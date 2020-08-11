@@ -29,6 +29,7 @@ CREATE TABLE "dept_manager" (
 
 SELECT * FROM dept_manager
 
+--Department Employees 
 CREATE TABLE "employees" (
     "emp_no" INTEGER   NOT NULL,
     "birth_date" DATE   NOT NULL,
@@ -43,6 +44,7 @@ CREATE TABLE "employees" (
 
 SELECT * FROM employees
 
+-- Department Salaries
 CREATE TABLE "salaries" (
     "emp_no" INTEGER   NOT NULL,
     "salary" INTEGER   NOT NULL,
@@ -52,7 +54,7 @@ CREATE TABLE "salaries" (
 
 SELECT * FROM salaries
 
-
+-- Titles Table 
 CREATE TABLE "titles" (
     "emp_no" INTEGER   NOT NULL,
     "title" VARCHAR   NOT NULL,
